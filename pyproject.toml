@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "gym-churn-project"
+version = "0.1.0"
+description = "Project for gym owners, can be used to identify members who are likely to churn"
+authors = ["Kushal Therokar <58382487+Kushal-11@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
